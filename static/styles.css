@@ -1,0 +1,159 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+button {
+  color: inherit;
+}
+button, [role="button"] {
+  cursor: pointer;
+}
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-size: 1em;
+}
+img,
+svg {
+  display: block;
+}
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+/*Pagina index */
+.titulo-1{
+
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 4em;
+  background-color: #86efac;
+  padding: 0.5em 1em;
+}
+
+.titulo-2{
+
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 4em;
+}
+
+.inicio {
+  max-width: 1000px; /* Ajusta el ancho según tu diseño */
+  margin: auto; /* Centra el contenedor en la página */
+  padding: 0 20rem; /* Agrega un poco de espacio en los lados */
+}
+
+.link {
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  padding: 0.5em 1em;
+  margin: 2rem;
+  text-decoration: none;/*Quita el subrayado del enlace*/
+  background: #f0e6bc;
+  border-radius: 25%;
+  color: #ffffff; /*Color del texto*/
+  cursor: pointer; /*Indica interactividad*/
+  transition: background 0.2s ease-in-out; /*Efecto de desplazamiento*/
+}
+
+.link:hover {
+  background: #f7a9ea; /*Cambia el color cual lo pones encima*/
+}
+
+
+/*Pagina City y User */
+.img {
+  width: 200px;
+  height: 200px;
+  margin:  auto;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.box {
+  width: 350px;
+  padding: 50px;
+  background-color: #a5a2a24c;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 1, 0.775);
+  justify-content: center;  
+  
+}
+
+.text {
+  color: #000;
+  font-family: monospace; /*Indica el tipo de letra*/
+  font-size: 20px; /*Indica el tamaño de la letra*/
+  font-weight: 600; /*Indica el grosor de la letra*/
+  margin-bottom: 5px;
+
+}
+
+.email {
+  color: #4a86e8;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.address {
+  color: #8c8c8c;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.sex {
+  color: #f00;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+
+/*Pagina dog */
+.parent-dog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.box-dog {
+  display: flex; 
+  align-items: center;
+  width: 800px;
+  padding: 50px;
+  background-color: #e4e1e1c4;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgb(243, 238, 151);
+  overflow: hidden;
+}
+
+.box-dog img {
+  float: left;
+  margin-right: 10px;
+  width: 400px;
+  height: 400px;
+}
